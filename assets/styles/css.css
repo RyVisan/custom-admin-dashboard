@@ -45,17 +45,116 @@ a{
 }
 .sidebar li{
     list-style-type: none;
-    padding: 5px 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding: 7.9px 15px;
+    transition: 0.4s;
+}
+.sidebar li:hover{
+    transition: 0.4s;
+    background: rgb(201, 201, 211);
 }
 .sidebar li a{
-    padding: 0px 20px;
+    padding: 0px 0px;
     color: blue;
     transition: 0.4s;
 }
 .sidebar li:hover a{
-    padding: 8px 20px;
-    color: black;
     transition: 0.4s;
 }
+.active{
+    color: black;
+}
+.close-msg{
+    cursor: pointer;
+}
+.alert-msg-success{
+    color: white;
+    background: green;
+    padding: 5px 10px 3px 10px;
+    border-radius: 7px;
+}
+.alert-msg-danger{
+    color: white;
+    background: red;
+    padding: 5px 10px 3px 10px;
+    border-radius: 7px;
+}
+.alert-msg-warning{
+    color: white;
+    background: #F7D31D;
+    padding: 5px 10px 3px 10px;
+    border-radius: 7px;
+}
+.placeholde-input{
+    border: 1px solid red;
+    outline: red;
+}
+/* .sidebar > li ul.sub-sidebar{
+    border: 1px solid red;
+    display: none;
+    padding: 5px 10px;
+    background: lightblue;
+} */
+/* 
+.main-menu .navigation ul.sidebar > li{
+    position: relative;
+}
+.main-menu .navigation ul.sidebar > li ul.sub-sidebar{
+    border: 1px solid red;
+    display: none !important;
+    padding: 5px 10px;
+    background: lightblue;
+    position: absolute;
+    top: 44px;
+    left: 0;
+}
+.main-menu .navigation ul.sidebar > li:hover > ul.sub-sidebar{
+    display: block !important;
+} */
+
+
+
+
+/* 
+.main-menu{
+    background: #fff;
+}
+
+.main-menu .nav-brand{
+    display: inline-block;
+    width: 123px;
+    text-align: center;
+}
+
+.main-menu .navigation{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+.main-menu .navigation li.nav-item{
+    list-style-type: none;
+    display: inline-block;
+}
+.main-menu .navigation li.nav-item:not(:first-child){
+    margin-left: -5px;
+}
+.main-menu .navigation li.nav-item a{
+    display: block;
+    padding: 8px 15px;
+}
+.main-menu .navigation > li.nav-item > a{
+    border: 1px solid red;
+}
+.main-menu .navigation > li.nav-item ul.nav-sub{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    border: 1px solid blue;
+    display: none;
+}
+.main-menu .navigation > li.nav-item ul.nav-sub.show{
+    display: block;
+}
+.main-menu .navigation > li.nav-item ul.nav-sub > li.nav-item{
+    
+} */
